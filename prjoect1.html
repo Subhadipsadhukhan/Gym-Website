@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subhos Fitness Club</title>
+    <style>
+        body{
+            /* font-family: 'Courier New', Courier, monospace; */
+            color: wheat;
+            padding: 0px;
+            background: url('https://images.unsplash.com/photo-1534258936925-c58bed479fcb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDF8fGd5bXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60');
+            background-repeat: no-repeat;
+            height: 100%;
+            background-position: center;
+            background-size: cover;
+            height: 550px;
+            
+        }
+        .Left{
+            display: inline-block;
+            position: absolute;
+            left: 60px;
+            top: 20px;
+            /* border: 2px solid red; */
+        }
+        .Left img{
+            width: 75px;
+            cursor: pointer;
+
+        }
+        .Left div{
+            line-height: 19px;
+            font-size: 15px;
+            color: white;
+            /* text-align: left; */
+        }
+        .mid{
+            display: block;
+            width: 60%;
+            margin: 30px auto;
+            /* border: 2px solid red; */
+            
+        }
+        .right{
+            position: absolute;
+            right: 34px;
+            top: 43px;
+            display: inline-block;
+            /* border: 2px solid red; */
+
+        }
+        .navbar{
+            display: inline-block;
+        }
+        .navbar li{
+            display: inline-block;
+            font-size: 25px;
+        }
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+            padding: 34px 23px;
+            font-size: 20px;
+        }
+        .navbar li a:hover,
+        .navbar li a.active{
+            text-decoration:  underline;
+            color: gray;
+        }
+        .btn{
+            margin: 5px 9px;
+            background-color: black;
+            color: white;
+            padding: 4px 14px;
+            border: 2px solid gray;
+            font-size: 15px;
+            cursor: pointer;
+            border-radius: 10px;
+        }
+        .btn:hover{
+            background-color: burlywood;
+        }
+        .container{
+            border: 2px solid white;
+            margin: 50px 75px;
+            padding: 55px;
+            width: 30%;
+            border-radius: 28px;
+
+        }
+        .container h1{
+            text-align: center;
+            color:white;
+        }
+        .container button{
+            display: block;
+            width: 74%;
+            margin: 25px auto;
+        }
+        
+        
+        .form-group input{
+            text-align: center;
+            display: block;
+            width: 270px;
+            padding: 1px;
+            margin: 11px auto;
+            border-radius: 8px;
+        }
+       
+
+        
+    </style>
+</head>
+<body>
+    <header class="header">
+        <!-- Left box for logo -->
+        <div class="Left">
+            <img src="https://images-platform.99static.com/8QVhsq0xUI9KAGH6WZXUmnWohwI=/0x0:1574x1574/500x500/top/smart/99designs-contests-attachments/97/97489/attachment_97489210">
+            <div>Subhos Fitness Club</div>
+        </div>
+        <!-- mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" >Home</a></li>
+                <li><a href="#">Aboug Us</a></li>
+                <li><a href="#">Fitness Tips</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <!-- Right box for bttn -->
+        <div class="right">
+            <Button class="btn">Call us</Button>
+            <Button class="btn">Email Us</Button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join the best gym of west bengal</h1>
+        <form action="naction.php">
+            <div class="form-group">
+                <input type="text" placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Enter your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Enter your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Enter your Contact Number">
+            </div>
+            <button class="btn">Submit</button>
+            
+        </form>
+    </div>
+    
+</body>
+</html>
